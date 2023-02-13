@@ -92,8 +92,8 @@ mod flipper {
          */
         #[ink(message)]
         pub fn get_text(&self) -> String{
-            let a = self.text.clone();
-            a
+            let res = self.text.clone();
+            res
         }
 
     }
